@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📲 QR Code Generator
 
-## Getting Started
+Aplicação simples e personalizável para gerar QR Codes dinâmicos, com opção de adicionar cor, fundo e logo no centro.  
 
-First, run the development server:
+---
 
-```bash
+## 🛠 Tecnologias
+
+- [Next.js](https://nextjs.org/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+
+---
+
+## ✨ Funcionalidades
+
+- Gerar QR Code a partir de um link/URL  
+- Alterar cor do QR Code  
+- Alterar cor de fundo  
+- Upload de logo personalizada no centro  
+- Ajuste de tamanho da logo  
+- Visualização em tempo real  
+- Download do QR Code como imagem  
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+1. Clone este repositório  
+   ```bash
+   git clone https://github.com/Lussca000/qr-code-generator.git
+Acesse a pasta do projeto
+
+bash
+Copiar código
+cd qr-code-generator
+Instale as dependências
+
+bash
+Copiar código
+npm install
+Inicie o servidor de desenvolvimento
+
+bash
+Copiar código
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra no navegador:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+arduino
+Copiar código
+http://localhost:3000
+📂 Estrutura do Projeto
+csharp
+Copiar código
+📦 qr-code-generator
+ ┣ 📂 app
+ ┃ ┗ 📜 page.tsx   # Página principal da aplicação
+ ┣ 📂 public       # Arquivos estáticos (imagens, logos, etc.)
+ ┣ 📜 package.json # Configuração do projeto
+ ┣ 📜 tsconfig.json
+ ┗ ...
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📄 Licença
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar, modificar e compartilhar.
